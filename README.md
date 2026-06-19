@@ -14,9 +14,9 @@ pip install requests python-dotenv
 Depois mude .env_example para .env e coloque os dados corretamente em cada lugar
 
 ### 3. Estrutura da tabela no Supabase
-create table contatos (
-  id bigint generated always as identity primary key,
-  nome text not null,
-  telefone text not null
-);
+    create table contatos (
+        id bigint generated always as identity primary key,
+        nome text not null,
+        telefone text not null
+    );
 
